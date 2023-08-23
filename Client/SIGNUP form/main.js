@@ -28,7 +28,7 @@ document.getElementById("btn").addEventListener('click',(e)=> {
             }
         }
         xhr.send(JSON.stringify(users))
-        window.location.href="http://127.0.0.1:5500/ajax.html"
+        window.location.href="./ajax.html"
     }
     
 
