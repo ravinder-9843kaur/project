@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbgKWwiIQZn96fEJe4dimxngXH4_Xbv2B2g&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: gold;
+    color: black;
+    margin-top: 20px;
+}
+form h1{
+    margin-bottom: 30px;
+}
+form{
+    color: white;
+}
+
+button:hover{
+color: white;
+background-color: black;
+}
